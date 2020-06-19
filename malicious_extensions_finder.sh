@@ -1,0 +1,139 @@
+#XDA Developers article on malicious Chrome extensions: https://www.xda-developers.com/google-removes-70-malicious-chrome-extensions/
+#Chrome extensions IDs source from Awake Security: https://awakesecurity.com/wp-content/uploads/2020/06/GalComm-Malicious-Chrome-Extensions-Appendix-B.txt
+#Make the script is executable: "chmod +x malicious_extensions_finder.sh"
+#Execute the shell script like so: "./malicious_extensions_finder.sh"
+
+malicous_extensions=(
+acmnokigkgihogfbeooklgemindnbine
+apgohnlmnmkblgfplgnlmkjcpocgfomp
+apjnadhmhgdobcdanndaphcpmnjbnfng
+bahkljhhdeciiaodlkppoonappfnheoi
+bannaglhmenocdjcmlkhkcciioaepfpj
+bgffinjklipdhacmidehoncomokcmjmh
+bifdhahddjbdbjmiekcnmeiffabcfjgh
+bjpknhldlbknoidifkjnnkpginjgkgnm
+blngdeeenccpfjbkolalandfmiinhkak
+ccdfhjebekpopcelcfkpgagbehppkadi
+cceejgojinihpakmciijfdgafhpchigo
+cebjhmljaodmgmcaecenghhikkjdfabo
+chbpnonhcgdbcpicacolalkgjlcjkbbd
+cifafogcmckphmnbeipgkpfbjphmajbc
+clopbiaijcfolfmjebjinippgmdkkppj
+cpgoblgcfemdmaolmfhpoifikehgbjbf
+dcmjopnlojhkngkmagminjbiahokmfig
+deiiiklocnibjflinkfmefpofgcfhdga
+dipecofobdcjnpffbkmfkdbfmjfjfgmn
+dopkmmcoegcjggfanajnindneifffpck
+dopmojabcdlfbnppmjeaajclohofnbol
+edcepmkpdojmciieeijebkodahjfliif
+ekbecnhekcpbfgdchfjcfmnocdfpcanj
+elflophcopcglipligoibfejllmndhmp
+eogfeijdemimhpfhlpjoifeckijeejkc
+fcobokliblbalmjmahdebcdalglnieii
+fgafnjobnempajahhgebbbpkpegcdlbf
+fgcomdacecoimaejookmlcfogngmfmli
+fgmeppijnhhafacemgoocgelcflipnfd
+fhanjgcjamaagccdkanegeefdpdkeban
+flfkimeelfnpapcgmobfgfifhackkend
+fmahbaepkpdimfcjpopjklankbbhdobk
+foebfmkeamadbhjcdglihfijdaohomlm
+fpngnlpmkfkhodklbljnncdcmkiopide
+gdifegeihkihjbkkgdijkcpkjekoicbl
+gfcmbgjehfhemioddkpcipehdfnjmief
+gfdefkjpjdbiiclhimebabkmclmiiegk
+ggijmaajgdkdijomfipnpdfijcnodpip
+ghgjhnkjohlnmngbniijbkidigifekaa
+gllihgnfnbpdmnppfjdlkciijkddfohn
+gmmohhcojdhgbjjahhpkfhbapgcfgfne
+gofhadkfcffpjdbonbladicjdbkpickk
+hapicipmkalhnklammmfdblkngahelln
+hijipblimhboccjcnnjnjelcdmceeafa
+hmamdkecijcegebmhndhcihjjkndbjgk
+hodfejbmfdhcgolcglcojkpfdjjdepji
+hpfijbjnmddglpmogpaeofdbehkpball
+ianfonfnhjeidghdegbkbbjgliiciiic
+ibfjiddieiljjjccjemgnoopkpmpniej
+inhdgbalcopmbpjfincjponejamhaeop
+iondldgmpaoekbgabgconiajpbkebkin
+ipagcbjbgailmjeaojmpiddflpbgjngl
+jagbooldjnemiedoagckjomjegkopfno
+jdheollkkpfglhohnpgkonecdealeebn
+jfefcmidfkpncdkjkkghhmjkafanhiam
+jfgkpeobcmjlocjpfgocelimhppdmigj
+jghiljaagglmcdeopnjkfhcikjnddhhc
+jgjakaebbliafihodjhpkpankimhckdf
+jiiinmeiedloeiabcgkdcbbpfelmbaff
+jkdngiblfdmfjhiahibnnhcjncehcgab
+jkofpdjclecgjcfomkaajhhmmhnninia
+kbdbmddhlgckaggdapibpihadohhelao
+keceijnpfmmlnebgnkhojinbkopolaom
+khhemdcdllgomlbleegjdpbeflgbomcj
+kjdcopljcgiekkmjhinmcpioncofoclg
+kjgaljeofmfgjfipajjeeflbknekghma
+labpefoeghdmpbfijhnnejdmnjccgplc
+lameokaalbmnhgapanlloeichlbjloak
+lbeekfefglldjjenkaekhnogoplpmfin
+lbhddhdfbcdcfbbbmimncbakkjobaedh
+ldoiiiffclpggehajofeffljablcodif
+lhjdepbplpkgmghgiphdjpnagpmhijbg
+ljddilebjpmmomoppeemckhpilhmoaok
+ljnfpiodfojmjfbiechgkbkhikfbknjc
+lnedcnepmplnjmfdiclhbfhneconamoj
+lnlkgfpceclfhomgocnnenmadlhanghf
+loigeafmbglngofpkkddgobapkkcaena
+lpajppfbbiafpmbeompbinpigbemekcg
+majekhlfhmeeplofdolkddbecmgjgplm
+mapafdeimlgplbahigmhneiibemhgcnc
+mcfeaailfhmpdphgnheboncfiikfkenn
+mgkjakldpclhkfadefnoncnjkiaffpkp
+mhinpnedhapjlbgnhcifjdkklbeefbpa
+mihiainclhehjnklijgpokdpldjmjdap
+mmkakbkmcnchdopphcbphjioggaanmim
+mopkkgobjofbkkgemcidkndbglkcfhjj
+mpifmhgignilkmeckejgamolchmgfdom
+nabmpeienmkmicpjckkgihobgleppbkc
+nahhmpbckpgdidfnmfkfgiflpjijilce
+ncepfbpjhkahgdemgmjmcgbgnfdinnhk
+npaklgbiblcbpokaiddpmmbknncnbljb
+npdfkclmbnoklkdebjfodpendkepbjek
+nplenkhhmalidgamfdejkblbaihndkcm
+oalfdomffplbcimjikgaklfamodahpmi
+odnakbaioopckimfnkllgijmkikhfhhf
+oklejhdbgggnfaggiidiaokelehcfjdp
+omgeapkgiddakeoklcapboapbamdgmhp
+oonbcpdabjcggcklopgbdagbfnkhbgbe
+opahibnipmkjincplepgjiiinbfmppmh
+pamchlfnkebmjbfbknoclehcpfclbhpl
+pcfapghfanllmbdfiipeiihpkojekckk
+pchfjdkempbhcjdifpfphmgdmnmadgce
+pdpcpceofkopegffcdnffeenbfdldock
+pgahbiaijngfmbbijfgmchcnkipajgha
+pidohlmjfgjbafgfleommlolmbjdcpal
+pilplloabdedfmialnfchjomjmpjcoej
+pklmnoldkkoholegljdkibjjhmegpjep
+pknkncdfjlncijifekldbjmeaiakdbof
+plmgefkiicjfchonlmnbabfebpnpckkk
+pnciakodcdnehobpfcjcnnlcpmjlpkac
+ponodoigcmkglddlljanchegmkgkhmgb
+)
+
+#Get installed Chrome extensions
+directories=`ls /Users/$USER/Library/Application\ Support/Google/Chrome/Default/Extensions -1`
+detected_extensions=()
+
+for ext in ${malicous_extensions[@]}; do
+  for dir in ${directories[@]}; do
+    if [ "$ext" = "$dir" ]; then
+      detected_extensions+=( "$ext" )
+    fi
+  done
+done
+
+if (( ${#detected_extensions[@]} )); then
+    echo "Uh oh! The following malicious extensions were found (you should remove them immediately) 🔴 :";
+    for mal_ext in ${detected_extensions[@]}; do
+      echo "$mal_ext 🔴"
+    done
+else
+    echo "Hooray! You don't have any malicious extensions ✅"
+fi
