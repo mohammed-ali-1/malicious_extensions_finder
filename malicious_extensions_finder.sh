@@ -1,7 +1,5 @@
 #XDA Developers article on malicious Chrome extensions: https://www.xda-developers.com/google-removes-70-malicious-chrome-extensions/
 #Chrome extensions IDs source from Awake Security: https://awakesecurity.com/wp-content/uploads/2020/06/GalComm-Malicious-Chrome-Extensions-Appendix-B.txt
-#Make the script is executable: "chmod +x malicious_extensions_finder.sh"
-#Execute the shell script like so: "./malicious_extensions_finder.sh"
 
 malicous_extensions=(
 acmnokigkgihogfbeooklgemindnbine
